@@ -1,0 +1,17 @@
+Kyle Warren 
+
+Google Drive link for the final presentation video:
+
+https://drive.google.com/drive/folders/1OXpSfPMWpAsXWIK4Z6F-PmA0Fn0w_JM0?usp=sharing
+
+Bibliography
+Google. (2020, 10 27). Google Docs. Retrieved from Firebase: https://firebase.google.com/docs/database
+Google LLC. (2021). Add Firebase to your JavaScript project. Retrieved from Google Firebase: https://firebase.google.com/docs/web/setup
+Google LLC. (2021). Create dynamic lists with RecyclerView. Retrieved from Google Developers: https://developer.android.com/guide/topics/ui/layout/recyclerview
+Google LLC. (2021, April 15). Google Play - Google Maps - Navigate & Explore. Retrieved from Google Play: https://play.google.com/store/apps/details?id=com.google.android.apps.maps&hl=en_ZA&gl=US
+Google LLC. (2021). Select Current Place and Show Details on a Map. Retrieved from Google Maps Platform: https://developers.google.com/maps/documentation/android-sdk/current-place-tutorial
+Google LLC. (2021). Select Current Place and Show Details on a Map. Retrieved from Google Maps Platform: Select Current Place and Show Details on a Map
+JVSTUDIOS. (2021, April 15). Google Play - GPS Offline Maps, Navigation, Directions & Traffic. Retrieved from Google Play: https://play.google.com/store/apps/details?id=com.jvstudios.gpstracker&hl=en_ZA&gl=US
+MAPS.ME (CYPRUS) LTD. (2021, April 4). Google Play - MAPS.ME – Offline maps, travel guides & navigation. Retrieved from Google Play: https://play.google.com/store/apps/details?id=com.mapswithme.maps.pro&hl=en_ZA&gl=US
+
+
