@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+    <com.skyfishjy.library.RippleBackground
+        android:id="@+id/rippleBg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:rb_color="#0099CC"
+        app:rb_duration="3000"
+        app:rb_radius="32dp"
+        app:rb_rippleAmount="4"
+        app:rb_scale="6">
+
+        <ImageView
+            android:id="@+id/imageViewFav"
+            android:layout_width="76dp"
+            android:layout_height="69dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="6dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="429dp"
+            android:layout_marginEnd="329dp"
+            android:layout_marginRight="329dp"
+            android:layout_marginBottom="233dp"
+            android:src="@drawable/ic_fav" />
+
+    </com.skyfishjy.library.RippleBackground>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/PlaceInformation"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_margin="16dp"
+        android:visibility="invisible"
+        android:elevation="5dp"
+        android:outlineProvider="bounds"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textViewDistance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Distance: 40km"
+            android:textColor="#1D5187"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textViewDuration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Duration: 22minutes"
+            android:textColor="#1D5187"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewDistance" />
+          " />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+<!--    <com.mancj.materialsearchbar.MaterialSearchBar-->
+<!--        style="@style/MaterialSearchBarLight"-->
+<!--        app:mt_speechMode="false"-->
+<!--        app:mt_hint="Search a place"-->
+<!--        android:layout_margin="16dp"-->
+<!--        app:mt_navIconEnabled="true"-->
+<!--        app:mt_maxSuggestionsCount="10"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:mt_placeholder="Search a place"-->
+<!--        android:elevation="5dp"-->
+<!--        android:outlineProvider="bounds"-->
+<!--        android:id="@+id/searchBar" />-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnFind"
+            android:layout_width="281dp"
+            android:layout_height="41dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/buttonasset"
+            android:text="Find place"
+            android:textColor="#272727"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            app:backgroundTint="@color/uu" />
+
+        <Button
+            android:id="@+id/btnSettings"
+            android:layout_width="281dp"
+            android:layout_height="39dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/buttonasset"
+            android:text="Settings"
+            android:textColor="#272727"
+            android:visibility="invisible"
+            app:backgroundTint="@color/uu" />
+
+        <Button
+            android:id="@+id/btnFavourites"
+            android:layout_width="281dp"
+            android:layout_height="39dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/buttonasset"
+            android:text="Favourites"
+            android:textColor="#272727"
+            android:visibility="invisible"
+            app:backgroundTint="@color/uu" />
+
+        <Button
+            android:id="@+id/btnMoreOptions"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="170dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/button"
+            android:text="+"
+            android:textSize="22dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

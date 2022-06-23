@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "377557872044",
+    "firebase_url": "https://local-guide-e1777-default-rtdb.firebaseio.com",
+    "project_id": "local-guide-e1777",
+    "storage_bucket": "local-guide-e1777.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:377557872044:android:18a7531529cc6755f89e09",
+        "android_client_info": {
+          "package_name": "com.example.localguide"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "377557872044-mk3lat4hnscpt4dfqmh76nges535blsp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDb6XgCn9FIjv4CFSWM7q7lVSszPTS3Zcg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "377557872044-mk3lat4hnscpt4dfqmh76nges535blsp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

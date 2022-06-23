@@ -1,0 +1,33 @@
+<resources>
+    <!-- Reply Preference -->
+    <string-array name="reply_entries">
+        <item>Reply</item>
+        <item>Reply to all</item>
+    </string-array>
+
+    <string-array name="reply_values">
+        <item>reply</item>
+        <item>reply_all</item>
+    </string-array>
+    <string-array name="distance"  >
+        <item>
+            Km
+        </item>
+        <item>
+            Mi
+        </item>
+    </string-array>
+
+
+    <string-array name="searchQuery">
+        <item>bank</item>
+        <item>airport</item>
+        <item>atm</item>
+        <item>liquor_store</item>
+        <item>museum</item>
+        <item>gym</item>
+        <item>gas_station</item>
+        <item>tourist_attraction</item>
+        <item>cafe</item>
+    </string-array>
+</resources>
